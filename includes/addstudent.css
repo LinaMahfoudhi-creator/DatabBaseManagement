@@ -1,0 +1,179 @@
+/* Reset some default margin and padding */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container{
+    background-color: transparent   !important;
+    justify-content: center;
+    position: relative; 
+    width: 100%;
+    margin-bottom: 40px;
+    padding-bottom: 100px;
+}
+
+
+/* Header styles */
+.header {
+    color: #f39dc1; /* Pink text color */
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #f48a9c;
+    background-color: transparent; /* Ensure no background */
+}
+table {
+    margin: 20px auto; 
+    border-collapse: collapse; 
+    width: 50%;
+    table-layout: fixed; 
+}
+
+th, td {
+    padding: 10px; 
+}
+table img {
+    border-radius: 8px !important; /* Adjust the value for more or less rounding */
+    overflow: hidden;
+}
+#studentTable_info,#studentTable_paginate {
+    position: relative !important;
+    top: 20px !important;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #f39dc1, #f48a9c);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links li {
+    display: inline;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #ffe6f0;
+}
+.text-pink {
+    color: #f39dc1;
+}
+
+.btn-pink {
+    background-color: #f39dc1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-pink:hover {
+    background-color: #f48a9c;
+    color: white;
+}
+
+.card {
+    border-radius: 10px;
+    border: 1px solid #f39dc1;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+
+.text-pink {
+    color: #f39dc1;
+    font-weight: bold;
+}
+
+.form-control {
+    border: 1px solid #f39dc1;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #f48a9c;
+    box-shadow: 0 0 5px rgba(243, 157, 193, 0.5);
+    outline: none;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+select.form-control {
+    appearance: none;
+    background: #fff;
+    cursor: pointer;
+}
+
+.btn-pink {
+    background-color: #f39dc1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-pink:hover {
+    background-color: #f48a9c;
+    color: white;
+    transform: scale(1.05);
+}
+
+.text-center {
+    margin-top: 20px;
+}
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .btn-pink {
+        width: 100%;
+    }
+}

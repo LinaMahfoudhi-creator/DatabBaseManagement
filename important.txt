@@ -1,0 +1,15 @@
+important!
+
+Admin account: 
+username :Admin
+email: admin@gmail.com
+
+other users:
+User1
+user1@gmail.com
+
+User2
+user2@gmail.com
+
+
+
