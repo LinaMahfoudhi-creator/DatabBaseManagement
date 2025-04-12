@@ -4,10 +4,11 @@ $css = 'includes/login.css';
 include 'includes/AutoLoader.php';
 include 'includes/header1.php';
 session_start();
-if (isset($_SESSION['username'])) {
+/*if (isset($_SESSION['username'])) {
     header('Location: Home.php');
     exit;
-}
+}*/
+
 ?>
 <div class="login-container">
     <form class="login-form" action="processLogin.php" method="POST">
